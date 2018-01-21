@@ -13,5 +13,5 @@ App({
     hasLogin: false
   },
   //聚合数据---菜谱的AppKey
-  AppKey: '6958c7199ff2d94ddf276f776b2498b1'
+  AppKey: '6664c4ef85eff3f7ea5ad27330ec5571'
 })
