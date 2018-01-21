@@ -217,7 +217,6 @@ Page({
           return;
         }
         //如果第一次使用，缓存中还没有数据时，从网络获取菜谱分类数据
-<<<<<<< HEAD
         // wx.request({
         //   url: 'https://apis.juhe.cn/cook/category?key=' + app.AppKey,
         //   method: 'GET',
@@ -255,34 +254,6 @@ Page({
         page.setData({
             category: categoryRequest.result,
             subCategory: categoryRequest.result[0].list
-=======
-        wx.request({
-          url: 'https://apis.juhe.cn/cook/category?key=' + app.AppKey,
-          method: 'GET',
-          success: function(res){
-            // 控制台打印网络访问获得的数据
-            console.log("成功获取数据,menu-category:");
-            console.log(res.data);
-            categoryRequest = res.data;
-            //将数据存入缓存中
-            wx.setStorageSync('categoryRequest', categoryRequest);
-            page.setData({
-                category: categoryRequest.result,
-                subCategory: categoryRequest.result[0].list
-            })
-          },
-          fail: function() {
-            // fail
-            console.log("没有获取数据，请检查网络");
-            wx.showToast({
-              title: "没有获取数据，请检查网络",
-              duration: 2000
-            })
-          },
-          complete: function() {
-            // complete
-          }
->>>>>>> parent of edad247... print fail message
         })
         console.log("获取数据, end:");
         //==============================================================//
