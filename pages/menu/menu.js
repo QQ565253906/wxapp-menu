@@ -32,11 +32,12 @@ Page({
                 subCategory: categoryRequest.result[0].list
             })
           },
-          fail: function() {
+          fail: function(res) {
             // fail
-            console.log("没有获取数据，请检查网络");
+            console.log("没有获取数据，请检查网络1");
+            console.log(res);
             wx.showToast({
-              title: "没有获取数据，请检查网络",
+              title: "没有获取数据，请检查网络2",
               duration: 2000
             })
           },
