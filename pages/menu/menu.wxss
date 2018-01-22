@@ -18,7 +18,7 @@ page{
     height: 100%;
     padding-left: 15rpx;
     padding-right: 15rpx;
-    background: #aa4400;
+    background: #d2bcb8;
 }
 .category{
     font-size: 16px;
@@ -36,7 +36,7 @@ page{
     height: 100%;
     padding-left: 30rpx;
     padding-right: 30rpx;
-    background: #00ffff;
+    background: #b2ced2;
 }
 .subCategory{
     font-size: 14px;

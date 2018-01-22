@@ -7,7 +7,7 @@
   ],
   "window":{
     "navigationBarBackgroundColor": "#2b2b2b",
-    "navigationBarTitleText": "百家菜谱",
+    "navigationBarTitleText": "菜谱大全",
     "navigationBarTextStyle":"white",
     "backgroundTextStyle":"light"
   },  
@@ -21,12 +21,12 @@
       "pagePath": "pages/menu/menu",
       "iconPath": "assets/img/ic-menu.png",
       "selectedIconPath": "assets/img/ic-menu.png",
-      "text": "百家菜谱"
+      "text": "菜谱大全"
     }, {
       "pagePath": "pages/search/search",
       "iconPath": "assets/img/ic-search.png",
       "selectedIconPath": "assets/img/ic-search.png",
-      "text": "搜寻美食"
+      "text": "搜美食"
     }]
   },
   "networkTimeout":{

@@ -9,7 +9,7 @@
     height: 300rpx;
     display: flex;
     flex-direction: row;
-    background: orange;
+    background: #ffe9f0;
     margin-top: 10rpx; 
 }
 .item-img{
